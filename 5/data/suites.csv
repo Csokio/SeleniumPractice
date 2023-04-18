@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Tue Apr 18 18:08:35 GMT 2023","Tue Apr 18 18:08:35 GMT 2023","222","","DemoTest","","DemoTest","testClickCheckBoxes","testClickCheckBoxes()",""
+"broken","Tue Apr 18 18:08:33 GMT 2023","Tue Apr 18 18:08:33 GMT 2023","355","","DemoTest","","DemoTest","testRadioButtons","testRadioButtons()",""
+"broken","Tue Apr 18 18:08:33 GMT 2023","Tue Apr 18 18:08:35 GMT 2023","1513","","DemoTest","","DemoTest","testApiStatus","testApiStatus()",""
+"broken","Tue Apr 18 18:08:21 GMT 2023","Tue Apr 18 18:08:33 GMT 2023","11849","","DemoTest","","DemoTest","testCountRowInTables","testCountRowInTables()",""
