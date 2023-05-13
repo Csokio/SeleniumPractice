@@ -16,8 +16,8 @@ import java.util.Scanner;
 
 public class DemoTest {
 
-    @AfterAll
-    public static void closeTheDriver()
+    @AfterEach
+    public void closeTheDriver()
     {
         Pages.closeDriver();
     }
