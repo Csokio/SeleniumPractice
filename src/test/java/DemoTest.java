@@ -1,18 +1,9 @@
-
-
-
-
-import io.restassured.RestAssured;
+/*import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.response.Response;
+import io.restassured.response.Response;*/
 import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.remote.http.HttpResponse;
-
-import java.io.File;
-import java.util.Scanner;
 
 public class DemoTest {
 
@@ -54,7 +45,7 @@ public class DemoTest {
         Assertions.assertArrayEquals(expected, actual);
     }
 
-    @Test
+    /*@Test
     public void testApiStatus()
     {
 
@@ -75,6 +66,6 @@ public class DemoTest {
     {
         int actual = RestAssured.get("https://automationexercise.com").statusCode();
         Assertions.assertEquals(200,actual);
-    }
+    }*/
 
 }
