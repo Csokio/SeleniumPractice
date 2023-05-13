@@ -39,6 +39,14 @@ public abstract class Pages {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));}
     }
 
+    public static void closeDriver()
+    {
+        if(driver != null){
+            driver.close();
+            driver = null;
+        }
+    }
+
     protected static final String url = "https://demo.seleniumeasy.com/";
 
     public void runFunction(String functionName)
