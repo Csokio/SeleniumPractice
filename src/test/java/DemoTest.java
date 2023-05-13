@@ -16,10 +16,10 @@ import java.util.Scanner;
 
 public class DemoTest {
 
-    @AfterEach
-    public void closeTheDriver()
+    @AfterAll
+    public static void quitDriver()
     {
-        Pages.closeDriver();
+        Pages.driver.quit();
     }
     @Test
     public void testCountRowInTables()
