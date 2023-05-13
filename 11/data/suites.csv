@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat May 13 12:21:41 GMT 2023","Sat May 13 12:21:41 GMT 2023","801","","DemoTest","","DemoTest","testRadioButtons","testRadioButtons()",""
+"passed","Sat May 13 12:21:41 GMT 2023","Sat May 13 12:21:42 GMT 2023","846","","DemoTest","","DemoTest","testClickCheckBoxes","testClickCheckBoxes()",""
+"passed","Sat May 13 12:21:26 GMT 2023","Sat May 13 12:21:41 GMT 2023","14887","","DemoTest","","DemoTest","testCountRowInTables","testCountRowInTables()",""
